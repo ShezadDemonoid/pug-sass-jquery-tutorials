@@ -1,0 +1,9 @@
+mixin progress(options)
+
+	-title = options.title || '';
+	-value = options.value || '';
+
+	.skill-style
+		h2.caps=title
+		.progress
+			.progress-bar.bg-success(role="progressbar" style="width:"+value+"%" aria-valuenow=value aria-valuemin="0" aria-valuemax="100")=value+"%"

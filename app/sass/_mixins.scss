@@ -1,0 +1,65 @@
+////mixins css//////////
+.about-mixin {
+    @include abt;
+}
+
+.abt-sec {
+    @include abt;
+    padding-left: 83px;
+}
+
+.my-btn {
+    @include btn(11px, 46px, #44CC77, 15px);
+}
+
+.slider-btn {
+    @include btn(11px, 46px, white, 15px);
+    display: block;
+    margin-top: 50px;
+}
+
+
+/*
+.btn-pos {
+    position: absolute;
+    left: 630px;
+    top: 640px;
+} */
+
+.form-btn {
+    @include btn(11px, 25px, white, 15px);
+    background: #191F21;
+    border: none;
+}
+
+.btn-resume {
+    @include btn(11px, 21px, #44CC77, 15px);
+}
+
+.detail__white {
+    color: #919191;
+    margin-left: 15%;
+}
+
+.desc-component {
+    width: 50%;
+    height: 125px;
+    float: left;
+    padding: 0 80px;
+}
+
+.img-desc {
+    float: left;
+    margin: 0 20px 46px 0
+}
+
+.icon-circle {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #4B5456;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}

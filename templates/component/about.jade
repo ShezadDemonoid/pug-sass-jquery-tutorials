@@ -1,0 +1,10 @@
+mixin about(options)
+
+	- title = options.title || '';
+	- textOne = options.textOne || 'Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est.';
+	- textTwo = options.textTwo || '';
+	- classAbt = options.classAbt || 'about-mixin';
+		div(class=classAbt)
+			h1.caps=title
+			p=textOne
+			p=textTwo

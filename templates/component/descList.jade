@@ -1,0 +1,12 @@
+mixin desclist(options)
+
+	- img = options.img || '';
+	- title = options.title || '';
+	- text = options.text || 'Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.';
+
+	.desc-component.col-sm-12
+		img.img-desc(src='image/iconImg/'+ img +'.png' alt=img)
+		.content-box
+			h2.caps=title
+			p=text
+

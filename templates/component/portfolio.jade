@@ -1,0 +1,8 @@
+mixin portfolio (options)
+
+	-imgName= options.imgName || '';
+
+	.col-md-4.img-hover
+			a(href="image/portfolioImg/"+imgName+".png" data-lightbox=imgName)
+				.search-img
+				img(src="image/portfolioImg/"+imgName+".png" alt=imgName)

@@ -1,0 +1,11 @@
+@mixin btn($height, $width, $color, $fontSize) {
+    padding: $height $width;
+    margin: 20px auto 0;
+    min-width: 88px;
+    font-size: $fontSize;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    border: 2px solid $color;
+    color: $color;
+}

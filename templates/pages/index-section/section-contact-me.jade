@@ -1,0 +1,34 @@
+.container
+	.row
+		.col-md-6.cont-text
+			h1.caps Contact Me
+			p Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.
+			p 122 33rd Street East
+			p Saskatoon, SK
+			p S7K 1R9
+			+contact({
+				label: "Email:",
+				detail: "info@focal.com"
+			})
+			br
+			+contact({
+				label: "Phone:",
+				detail: "1-306-222-2323"
+			})
+
+		.col-md-6.cont-form
+			form
+				.form-group
+					label Name*
+					input.form-control(type="text")
+				.form-group
+					label Email Address*
+					input.form-control(type="text")
+				.form-group
+					label Email Address*
+					textarea.form-control(rows="5")
+
+				+button({
+					text:'contact Me',
+					btnClass:'form-btn'
+				})

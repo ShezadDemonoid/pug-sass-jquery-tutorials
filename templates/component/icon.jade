@@ -1,0 +1,18 @@
+mixin icon (options)
+
+	-icon = options.icon || '';
+
+	.icon-circle
+		case icon
+			when 'dribbble'
+				include ../svgImg/dribbble
+			when 'pinterest'
+				include ../svgImg/pinterest
+			when 'facebook'
+				include ../svgImg/facebook
+			when 'google'
+				include ../svgImg/goo
+			when 'linkedin'
+				include ../svgImg/linkedin
+			when 'twitter'
+				include ../svgImg/twitter

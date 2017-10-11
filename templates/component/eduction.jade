@@ -1,0 +1,13 @@
+mixin educ(options)
+
+	- title = options.title || '';
+	- detail = options.detail || '';
+	- badge = options.badge || '';
+	- text = options.text || 'Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.';
+
+	.educ-details
+		h2.caps=title
+		p=detail
+		span.badge.badge-success=badge
+		hr
+		p=text
