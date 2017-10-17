@@ -1,5 +1,6 @@
 /////////slider CSS //////////
-.bg-slider {
+
+/* .bg-slider {
     background-image: url("../image/bgImg/background-img.png");
     height: 100vh;
     background-position: center;
@@ -8,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
+} */
 
 
 /* .slider-container {
@@ -20,7 +21,8 @@
 }
  */
 
-.slider-container {
+
+/* .slider-container {
     margin-left: 22%;
     margin-top: 4%;
 }
@@ -36,9 +38,28 @@
 .slider-counter {
     margin-bottom: 20px;
     align-self: flex-end;
+} */
+
+.header__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-/////////navbar CSS //////////
+.header-img {
+    width: 100%;
+    height: auto;
+}
+
+.header__title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 35pt;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+} /////////navbar CSS //////////
 .nav-logo {
     margin-right: 200px;
 }
@@ -125,7 +146,6 @@
     align-content: center;
     justify-content: center;
 }
-
 
 svg>path:hover {
     fill: white;
